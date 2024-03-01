@@ -1,24 +1,24 @@
-// /!----- && and ------/
+/!----- && and ------/
 
-// function isNumberInRange(start, end, number) {
-//     return number >= start && number <= end;
-// }
-
-
-// /!----- || or ------/
+function isNumberInRange(start, end, number) {
+    return number >= start && number <= end;
+}
 
 
-// function checkAccess(subType) {
-//     return subType === "pro" || subType === "vip";
-// }
+/!----- || or ------/
 
 
-// /!----- ! no ------/
+function checkAccess(subType) {
+    return subType === "pro" || subType === "vip";
+}
 
 
-// function toggleModalVisibility(isVisible) {
-//     return !isVisible;
-// }
+/!----- ! no ------/
+
+
+function toggleModalVisibility(isVisible) {
+    return !isVisible;
+}
 
 
 
